@@ -1,0 +1,1292 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        ::-webkit-scrollbar {
+            max-height: 10%;
+            height: 10%;
+            width: 2%;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .navBlock {
+            position: fixed;
+            width: 100%;
+
+
+        }
+
+        .topnav {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            margin: -10px;
+            height: 60px;
+        }
+
+        .imgBlock {
+            width: 50%;
+            margin-left: 50px;
+        }
+
+        .new {
+            display: flex;
+            align-items: center;
+        }
+
+        .bg {
+            width: 350px;
+            height: 350px;
+            text-align: center;
+            /* margin: 0 auto; */
+            /* margin-top: 30px; */
+
+
+        }
+
+        .img {
+            width: 100%;
+
+        }
+
+        .menuBlock {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .menuList {
+            display: flex;
+            gap: 30px;
+        }
+
+        .menuIcons {
+            display: flex;
+            gap: 20px;
+        }
+
+        .menuBar {
+            /* display: flex; */
+            font-size: 30px;
+            /* margin-right: 20px; */
+
+        }
+
+        .big {
+            color: black;
+            font-size: 40px;
+        }
+
+        .button {
+            background-color: black;
+            color: white;
+            height: 50px;
+            width: 200;
+            font-size: 15;
+        }
+
+        .txtblock {
+            display: flex;
+            margin: 60px;
+
+        }
+
+        .pblock {
+            color: rgba(0, 0, 0, 0.733);
+            font-size: 25px;
+
+
+        }
+
+        .button2 {
+            color: black;
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .b1 {
+            border-top: 2px solid black;
+            width: 400px;
+            text-align: right;
+
+            margin: 31px;
+            padding: 0;
+        }
+
+        .b1 h4 {
+            margin: 0;
+        }
+
+        .p2block {
+            width: 25%;
+            color: rgba(0, 0, 0, 0.557);
+            font-size: 20px;
+
+        }
+
+        .img2 {
+            width: 400px;
+            height: 400px;
+
+        }
+
+        .txt2block {
+            /* display: flex; */
+            /* width: 50%; */
+            background-color: rgba(86, 136, 153, 0.242);
+            width: 90%;
+            margin: 0 auto;
+
+
+
+        }
+
+        .s1 {
+            border-top: 2px solid black;
+            width: 140px;
+            text-align: right;
+
+            margin: 60px;
+            padding: 0;
+
+        }
+
+        .s1 h5 {
+            /* margin: 0px; */
+        }
+
+        .s2 {
+            width: 50%;
+            color: rgba(0, 0, 0, 0.639);
+            font-size: 20px;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+
+        .h1 {
+            color: black;
+            font-style: calc();
+        }
+
+        .boxBlock {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            /* justify-content: center; */
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin-bottom: 60px;
+
+        }
+
+        .box div {
+            /* width: 30px; */
+            width: 100%;
+        }
+
+        .maincase {
+            /* display: flex; */
+            width: 100%;
+            height: 100px;
+            /* gap: 80%; */
+        }
+
+        .case {
+            border-top: 2px solid black;
+            width: 160px;
+            text-align: right;
+
+            /* margin: 60px; */
+            /* padding: 0; */
+        }
+
+        .case h4 {
+            margin: 2px;
+        }
+
+        itembox {
+            margin-bottom: ;
+        }
+
+        .itemboxs {
+            display: flex;
+            width: 100%;
+            /* height: 100px; */
+            /* position: relative; */
+            gap: 20px;
+            margin-left: 50px;
+            justify-content: center;
+        }
+
+        .view {
+            width: 200px;
+            height: 50px;
+            margin: 40px;
+            color: black;
+            background-color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-color: rgba(0, 0, 0, 0.276);
+            margin-left: 40%;
+        }
+
+        .minibar {
+            /* display: none; */
+            /* width: 100%; */
+        }
+
+        /* .minione {
+            display: none;
+
+            
+       } */
+        /* .btn {
+            width: 150px;
+            height: 30px;
+
+        } */
+
+        .classic {
+            /* list-style-type: none; */
+            /* display: inline; */
+        }
+
+        .org {
+            /* display: none; */
+            display: flex;
+            /* gap: 730px; */
+        }
+
+        .org7 {
+            display: flex;
+            gap: 25px;
+            margin-left: 52%;
+        }
+
+        .all {
+            color: rgba(0, 0, 0, 0.518);
+            font-size: 13.5px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .maindata {
+            display: flex;
+            width: 100%;
+            gap: 15%;
+            margin: 40px;
+        }
+
+        .data {
+            border-top: 2px solid black;
+            width: 140px;
+            text-align: right;
+
+            /* margin: 60px; */
+            padding: 0;
+
+        }
+
+        .secdata {
+            color: rgba(0, 0, 0, 0.58);
+            font-size: 20px;
+        }
+
+        .DATAHOD {
+            display: flex;
+        }
+
+        .thrdata {
+            font-size: 15px;
+            color: black;
+        }
+
+        .mainHOD {
+            /* display: flex; */
+            /* width: 90%; */
+            margin: 40px;
+            /* gap: 20px; */
+        }
+
+        .HOD {
+            width: 300px;
+            height: 300px;
+            text-align: center;
+        }
+
+        .fmainHOD {
+            display: flex;
+        }
+
+        /* .smainHOD {} */
+        .mainPOST {
+            display: flex;
+            width: 100%;
+            gap: 40px;
+            margin: 60px;
+        }
+
+        .topPOST {
+            border-top: 2px solid black;
+            width: 140px;
+            text-align: right;
+
+            /* margin: 60px; */
+            padding: 0;
+
+        }
+
+        .topPOST h5 {
+            margin: 4px;
+        }
+
+        /* .secPOST
+            display: flex;
+        } */
+        .onPOST {
+            display: flex;
+        }
+
+        .MAINBUY {
+            width: 90%;
+            margin: 0 auto;
+            background-color: rgba(176, 196, 222, 0.224);
+        }
+
+        .TOPBUY {
+            display: flex;
+            gap: 20px;
+        }
+
+        .SECBUY {
+            /* text-decoration-line: overline; */
+            /* text-decoration-thickness: 2px; */
+            border-top: 2px solid black;
+            width: 140px;
+            text-align: right;
+
+            margin: 40px;
+            padding: 0;
+        }
+
+        .SECBUY h5 {
+            margin: 5px;
+        }
+
+        .LASTBUY {
+            color: rgba(0, 0, 0, 0.537);
+            font-size: 22px;
+            margin: 40px;
+        }
+
+        .h6 {
+            color: black;
+            font-style: calc();
+        }
+
+        .buyblock {
+            width: 100%;
+            height: 450px;
+            /* display: flex; */
+            /* gap: 20px; */
+            /* justify-content: center; */
+        }
+
+        .buy {
+            display: flex;
+            justify-content: center;
+        }
+
+        #buy1 {
+            width: 250px;
+            background: white;
+            padding: 40px;
+            margin: 20px;
+            text-align: center;
+            align-items: center;
+        }
+
+        #buy2 {
+            width: 250px;
+            background: white;
+            /* height: 500px; */
+            padding: 40px;
+            margin: 20px;
+            /* height: 300px; */
+            text-align: center;
+            align-items: center;
+        }
+
+        #buy3 {
+            width: 250px;
+            background: white;
+            /* height: 500px; */
+            padding: 40px;
+            margin: 20px;
+            /* height: 300px; */
+            text-align: center;
+            align-items: center;
+        }
+
+        .newbtn {
+            font-style: calc();
+            background: white;
+            border-color: rgba(0, 0, 0, 0.443);
+            font-size: 12px;
+            width: 140px;
+            height: 30px;
+        }
+
+        .d1 {
+            font-size: 45px;
+        }
+
+        .u1 {
+            color: rgba(0, 0, 0, 0.578);
+            font-size: 17px;
+            list-style-type: none;
+
+        }
+
+        .MAINMAP {
+            width: 100%;
+            /* height: 100px; */
+        }
+
+        .TOPMAP {
+            display: flex;
+            /* gap: 10px; */
+            /* margin: 30px; */
+        }
+
+        .MAP {
+            margin: 100px;
+            /* padding: 100px; */
+        }
+
+
+        .TOPBOAT {
+            display: flex;
+            /* margin: 50px; */
+        }
+
+        .IMGBOAT {}
+
+        .PBOAT {
+            margin: 100px;
+            width: 700px;
+            height: 100px;
+            background-color: white;
+            color: rgba(0, 0, 0, 0.619);
+            font-size: 22px;
+            font: calc();
+            text-align: center;
+        }
+
+        .DBOAT {
+            margin: 15px;
+            font-size: 20px;
+        }
+
+        .SBOAT {
+            text-align: left;
+        }
+
+        .MAINBAT {
+            width: 100%;
+        }
+
+        .TOPBAT {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: white;
+        }
+
+        .BAT {
+            height: 50px;
+            margin: 6%;
+            text-align: center;
+            font-size: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .black {
+            color: rgba(0, 0, 0, 0.555);
+            margin-top: 0;
+            font-size: 13px;
+            font-family: sans-serif;
+
+        }
+
+        .MAINFOLLOW {
+            width: 100%;
+            position: relative;
+        }
+
+
+        .TOPFOLLOW {
+            height: 400px;
+
+        }
+
+        .FOLLOW {
+            text-align: center;
+
+        }
+
+        .FOLLOWER {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            gap: 30px;
+            font-size: 25px;
+        }
+
+        .h6 {
+            font-size: 20px;
+            margin: 2px;
+            color: whitesmoke;
+        }
+
+        .h5 {
+            color: white;
+        }
+
+        .FLW {
+            color: white;
+        }
+
+        .bt1 {
+            width: 200px;
+            height: 40px;
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+        .MAINICON {
+            width: 100%;
+            /* margin: 50px; */
+        }
+
+        .TOPICON {
+            margin: 50px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        .ICON {
+            margin: 50px;
+            text-align: center;
+            height: 110px;
+        }
+
+        .FICON {
+            padding: 50px;
+            color: rgba(0, 0, 0, 0.461);
+            /* margin: 30px; */
+        }
+
+        .MPAGE {
+            width: 100%;
+        }
+
+        .TPAGE {
+            text-align: center;
+            padding: 30px;
+            background-color: white;
+            height: 60px;
+        }
+
+        .PPAGE {
+            color: rgba(0, 0, 0, 0.584);
+        }
+
+        .bottom {
+            height: 100px;
+            position: absolute;
+            z-index: -1;
+            top: 0;
+        }
+
+        .fa-brands {
+            margin-left: 20px;
+        }
+
+        .fa-solid {
+            margin-left: 20px;
+        }
+
+        /* .the
+        {
+            font-size: 20px;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        } */
+    </style>
+
+</head>
+
+<body>
+    <div class="navBlock">
+        <nav class="topnav">
+            <div class="imgBlock">
+                <img src="https://themebubble.com/demo/adios/wp-content/themes/adios/img/logo.png" />
+
+            </div>
+            <div class="menuBlock">
+                <div class="menuList">
+                    <div>Home</div>
+
+                    <div>Portfolio</div>
+
+                    <div>Blog</div>
+
+                    <div>Shop</div>
+
+                    <div>Other</div>
+
+                    <div>GetAdios</div>
+
+                </div>
+                <div class="menuIcons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-dribbble"></i>
+                    <i class="fa-solid fa-rss"></i>
+
+                </div>
+                <div class="menuBar"></div>
+                <i style="font-size: 25px;" class="fa-solid fa-bars"></i>
+
+            </div>
+
+
+        </nav>
+    </div>
+
+    <div class="rupesh10" style="width: 100%;">
+        <div class="rupesh"
+            style="width: 90%; height: 530px; margin: 20px; margin: 0 auto; background-color: rgba(192, 192, 192, 0.785);">
+
+            <div style="display: flex; width:100%; justify-content: center; gap:30px; height: 600px;">
+                <div class="big">
+
+                    <h1>Gone <br> are the days</h1>
+                    <p>Design. Development. Discover</p>
+
+                    <button class="button">
+                        <b>LEARN MORE</b>
+                    </button>
+
+                </div>
+
+
+                <div class="bg">
+                    <img class="img"
+                        src="https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80 387w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80 687w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80 774w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80 987w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80 1287w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80 1374w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1587&q=80 1587w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80 1887w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80 1974w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2187&q=80 2187w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2487&q=80 2487w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80 2574w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80 2787w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3087&q=80 3087w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3174&q=80 3174w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80 3387w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3687&q=80 3687w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3774&q=80 3774w, https://images.unsplash.com/photo-1579034626057-96619e5b4508?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3931&q=80 3931w"
+                        alt="">
+
+                </div>
+
+
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
+                integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        </div>
+
+
+        <div class="rupesh1" style="width: 100%; height: 500px;">
+            <div class="txtblock">
+                <h4 class="b1">BONJOUR</h4>
+
+
+
+                <div class="pblock">
+                    <p> We’re a digital agency mainly focused on Web Interactions and Photography, based on New York.
+                    </p>
+
+                    <br>
+                    <div class="button2">
+                        <h5>
+                            LEARN MORE
+
+                            <i class="fa-solid fa-angle-right"></i>
+
+                        </h5>
+                    </div>
+
+                </div>
+
+                <div class="p2block">
+                    <p>Masterpiece all youthful on, full-bodied wholesome quick, take zippy the tasty than natural.
+                        Outlasts
+                        great peppy generous, grand simply offer. Far why hearty, goodbye, leading can’t, splash formula
+                        brand
+                        know, reduced neat power jumbo</p>
+
+                    <img src="https://www.create-signature.com/s/sig/index.php?name=rupesh&f=132" alt="">
+
+                </div>
+                <img class="img2" src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/about_image.png"
+                    alt="">
+
+            </div>
+        </div>
+
+
+        <div class="rupesh2" style="width: 100%; height: 550px; padding-top: 50px;">
+            <div class="txt2block">
+                <div style="display: flex;">
+                    <h5 class="s1">SERVICES</h5>
+                    <div class="s2">
+                        <p>“You can design and create, and build the most wonderful place in the world.”</p>
+
+                        <h6 class="h1">- Walt Disney</h6>
+                    </div>
+                </div>
+
+                <div class="boxBlock">
+                    <div class="box">
+                        <div>
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/service_icon_1.png"
+                                alt="">
+                            <div>
+                                <h4>Layout Design</h4>
+                            </div>
+                            <div>
+                                <p>"This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                    aliquet.
+                                    Aenean sollicitudin, lorem quis bibendum auctor,"</p>
+
+                            </div>
+
+                            <h5>Learn More
+                                <i class="fa-solid fa-angle-right"></i>
+                            </h5>
+                        </div>
+
+                    </div>
+                    <div class="box">
+                        <div>
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/service_icon_2.png"
+                                alt="">
+                            <div>
+                                <h4>Cloud Computing</h4>
+                            </div>
+                            <div>
+                                <p>This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                    aliquet.
+                                    Aenean
+                                    sollicitudin, lorem quis bibendum auctor,</p>
+                            </div>
+
+                            <h5>Learn More
+                                <i class="fa-solid fa-angle-right"></i>
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div>
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/service_icon_3.png"
+                                alt="">
+                            <div>
+                                <h4>Content Management</h4>
+                            </div>
+                            <div>
+                                <p>This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                                    aliquet.
+                                    Aenean
+                                    sollicitudin, lorem quis bibendum auctor,</p>
+                            </div>
+
+                            <h5>Learn More
+                                <i class="fa-solid fa-angle-right"></i>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="p3block">
+            <p>“You can design and create, and build the most wonderful place in the world.”</p>
+
+            <h6 class="h1">- Walt Disney</h6>
+
+
+            <div class="txt21block">
+                <div class="l1">
+                    <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/service_icon_1.png" alt="">
+                    <div>
+                        <h4>Layout Design</h4>
+                    </div>
+                    <div>
+                        <p>"This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                            Aenean sollicitudin, lorem quis bibendum auctor,"</p>
+
+                        </div> -->
+                <!-- 
+                        <h5>Learn More
+                            <i class="fa-solid fa-angle-right"></i>
+                        </h5>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/service_icon_2.png" alt="">
+                </div>
+                <div>
+                    <h4>Cloud Computing</h4>
+                </div>
+                <div>
+                    <p>This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin, lorem quis bibendum auctor,</p>
+
+                    <h5>Learn More
+                        <i class="fa-solid fa-angle-right"></i>
+                    </h5>
+
+                </div>
+
+                <div>
+                    <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/service_icon_3.png" alt="">
+                </div>
+                <div>
+                    <h4>Content Management</h4>
+                </div>
+                <div>
+                    <p>This is Photoshop’s version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean
+                        sollicitudin, lorem quis bibendum auctor,</p>
+
+                    <h6>Learn More
+                        <i class="fa-solid fa-angle-right"></i>
+                    </h6>
+
+                </div>
+
+            </div>
+        </div> -->
+
+                <!-- <div class="wapper"> -->
+
+            </div>
+        </div>
+
+
+        <div class="mainorg" style="width: 100%; padding: 20px;;">
+            <div class="maincase">
+
+                <div class="org">
+                    <div class="case">
+                        <h4>CASE STUDY</h4>
+                    </div>
+
+
+                    <!-- <div class="classic">
+            <div class="minibar">
+                <button class="btn">ALL</button>
+                <i class="icon-down-open-mini"></i>
+            </div> -->
+
+                    <ul class="org7">
+                        <div class="all"><b>ALL</b></div>
+                        <div class="all"><b>BRANDING</b></div>
+                        <div class="all"><b>DESIGN</b></div>
+                        <div class="all"><b>PHOTOGRAPHY</b></div>
+                        <div class="all"><b>UI</b></div>
+                        <div class="all"><b>UX</b></div>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="itemboxs">
+
+            <div class="itembox">
+                <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/08/Untitled-1-270x570.png" alt="">
+            </div>
+            <div class="itembox">
+                <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/08/Untitled-1-1-570x570.png"
+                    alt="">
+            </div>
+            <div class="itembox">
+
+                <img style="margin-bottom: 5vh;"
+                    src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/6-1-270x270.jpg" alt="">
+
+                <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/6-1-270x270.jpg" alt="">
+            </div>
+
+        </div>
+
+        <div class="mainview" style="width: 100%; height: 200px;">
+            <button class="view">
+                <h5><b>VIEW MORE</b></h5>
+            </button>
+        </div>
+
+
+        <!-- <div class="topteam">
+        <div class="team">
+            <div class="row">
+                <div class="frow">
+                    <div class="srow">
+                        <div class="trow">
+                            <div class="crow">
+                                <div class="srow">
+
+                                    <h5 class="h5">TEAM</h5>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fprow">
+                    <div class="sprow">
+                        <div class="tprow">
+                            <div class="cprow">
+                                <p>"We’ve a dedicated team of Qualified Professionals with deep industry experience and
+                                    technical expertise to manage a multitude of tasks ranging in complexity and size."
+                                </p>
+                            </div>
+
+                            <p>
+                            <h5><b>Learn More</b></h5>
+
+                            <i class="icon-right-open-mini"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fsrow">
+                    <div class="ssrow">
+                        <div class="tsrow">
+                            <div class="csrow">
+                                <div class="imgrow">
+                                    <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/Untitled-1.jpg"
+                                        alt="">
+                                    <div class="fimg">
+                                        <div class="simg">
+                                            <h4 class="h4">
+
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+        <div class="rupesh4" style="width: 100%; height: 700px; background-color: rgba(176, 196, 222, 0.242);">
+            <div class="DATAHOD">
+                <div class="maindata">
+                    <div class="topdata">
+                        <h5 class="data">TEAM</h5>
+                    </div>
+
+                    <div class="secdata">
+                        <p>We’ve a dedicated team of Qualified Professionals with deep industry experience
+                            and technical expertise to manage a multitude of tasks ranging in complexity and size.</p>
+                        <div class="thrdata">
+                            <h5> <b>LEARN MORE</b>
+                                <i class="fa-solid fa-angle-right"></i>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fmainHOD">
+                    <div class="mainHOD">
+                        <div class="HOD">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/Untitled-1.jpg"
+                                alt="">
+                        </div>
+
+                        <!-- <div class="HOD"> -->
+                        <div class="HOD">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/team_2.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                    <div class="smainHOD" style="margin: 40px;">
+                        <div class="HOD">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/team_3.jpg" alt="">
+                        </div>
+                        <div class="HOD">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/team_1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="rupesh5" style="width: 100%; height: 600px;">
+            <div class="mainPOST">
+                <div class="topPOST">
+                    <h5><b>STORIES</b></h5>
+                </div>
+                <div class="secPOST">
+                    <div class="imgPOST">
+                        <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/1-1-670x255.png" alt="">
+                        <div class="">
+                            <h1>Single Post With Slide</h1>
+                            <div class="onPOST"></div>
+                            <div class="thePOST">
+                                <img src="https://secure.gravatar.com/avatar/578816ffce137858255eff793b54ce91?s=45&d=mm&r=g"
+                                    alt="">
+                                <div class="the1POST">
+                                    <h5>George Martin</h5>
+                                    <p>In Business, Design Posted June 20, 2016</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="rupesh8" style="width: 100%;">
+            <div class="MAINBUY">
+                <div class="TOPBUY">
+                    <div class="SECBUY">
+                        <h5>PRICES</h5>
+                    </div>
+                    <div class="LASTBUY">
+                        <p>“You can design and create, and build the most wonderful place in the world.”</p>
+                        <h6 class="h6">- Walt Disney</h6>
+                    </div>
+                </div>
+
+
+                <div class="buyblock">
+
+                    <div class="buy">
+                        <div id="buy1">
+
+                            <div class="d1"><sup>$</sup><b>199</b></div>
+                            <ul class="u1">
+                                <li>10 GB Of Space</li>
+                                <br>
+                                <li>5 Free Widgets</li>
+                                <br>
+                                <li>Three Domains</li>
+                                <br>
+                                <li>Customer Support</li>
+                                <br>
+                            </ul>
+                            <button class="newbtn"><b>BUY NOW</b></button>
+                        </div>
+
+                        <div id="buy2">
+
+                            <div class="d1"><sup>$</sup><b>299</b></div>
+                            <!-- </div> -->
+                            <ul class="u1">
+                                <li>10 GB Of Space</li>
+                                <br>
+                                <li>5 Free Widgets</li>
+                                <br>
+                                <li>Three Domains</li>
+                                <br>
+                                <li>Customer Support</li>
+                                <br>
+                            </ul>
+                            <button class="newbtn"><b>BUY NOW</b></button>
+                        </div>
+
+                        <div id="buy3">
+
+                            <div class="d1"><sup>$</sup><b>399</b></div>
+                            <!-- </div> -->
+                            <ul class="u1">
+                                <li>10 GB Of Space</li>
+                                <br>
+                                <li>5 Free Widgets</li>
+                                <br>
+                                <li>Three Domains</li>
+                                <br>
+                                <li>Customer Support</li>
+                                <br>
+                            </ul>
+                            <button class="newbtn"><b>BUY NOW</b></button>
+                        </div>
+
+                        <!-- </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="MAINMAP">
+                <div class="BGMAP" style="background-color:white;margin: auto;overflow-x: auto;">
+                    <div class="TOPMAP">
+                        <div class="MAP">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/logo_1.png" alt="">
+                        </div>
+                        <div class="MAP">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/logo_2.png" alt="">
+                        </div>
+                        <div class="MAP">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/logo_3.png" alt="">
+                        </div>
+                        <div class="MAP">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/logo_4.png" alt="">
+                        </div>
+                        <div class="MAP">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/logo_5.png" alt="">
+                        </div>
+                        <div class="MAP">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/logo_6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="MAINBOAT">
+                <div class="TOPBOAT">
+                    <div class="IMGBOAT">
+                        <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/testimonials_img2.png"
+                            alt="">
+                    </div>
+                    <div class="PBOAT">
+                        <p>Beautiful themes, they are just spot on.<br><b>Design</b>driven. Could you ask for more?</p>
+                        <!-- </div> -->
+                        <div class="SBOAT">
+                            <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/sign_2.png" alt="">
+                            <div class="DBOAT">
+                                <div>Desiginer @legato</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="MAINBAT">
+                    <div class="TOPBAT">
+                        <div class="BAT">
+                            <div><b>4</b><sup style="font-size: 20px; font-family: sans-serif;"><b>th</b></sup></div>
+                            <!-- <i class="the"><b>th</b></i> -->
+                            <h6 class="black">Anniversity</h6>
+                        </div>
+
+                        <div class="BAT">
+                            <div><b>300</b><sup style="font-size: 20px; font-family: sans-serif;"><b>+</b></sup></div>
+                            <!-- <i class="the"><b>+</b></i> -->
+                            <h6 class="black">Website Created</h6>
+                        </div>
+
+                        <div class="BAT">
+                            <div><b>500</b><sup style="font-size: 20px; font-family: sans-serif;"><b>k+</b></sup></div>
+                            <!-- <i class="the"><b>k+</b></i> -->
+                            <h6 class="black">Followers on Twitter</h6>
+                        </div>
+
+                        <div class="BAT">
+                            <div><b>28</b><sup style="font-size: 20px; font-family: sans-serif;"><b>+</b></sup></div>
+                            <!-- <i class="the"><b>+</b></i> -->
+                            <h6 class="black">Tv Show Watched</h6>
+                        </div>
+                    </div>
+
+
+
+                    <div class="MAINFOLLOW">
+                        <div class="TOPFOLLOW">
+                            <div class="FOLLOW">
+                                <img src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/folow_author.png"
+                                    alt="">
+
+                                <h6 class="h6">Johndoe</h6>
+                                <div class="h5">
+                                    <p>John Doe Art Director & digital producer. All pictures are mine, unless stated
+                                        otherwise.</p>
+                                </div>
+                                <div class="FOLLOWER">
+                                    <div class="FLW">
+                                        <b>201</b>
+                                        <h6 class="h6">posts</h6>
+                                    </div>
+
+                                    <div class="FLW">
+                                        <b>10.1M</b>
+                                        <h6 class="h6">followers</h6>
+                                    </div>
+
+                                    <div class="FLW">
+                                        <b>599</b>
+                                        <h6 class="h6">following</h6>
+                                    </div>
+                                </div>
+                                <div class="FLW2">
+                                    <button class="bt1"><b>Follow</b></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom" style="width:20px;">
+                            <!-- <div style="position: fixed;"> -->
+                            <img style="height: 120vh;width: 223vh;"
+                                src="https://themebubble.com/demo/adios/wp-content/uploads/2016/06/follow_bg2.jpg?id=174"
+                                alt="">
+                            <!-- </div> -->
+                        </div>
+                    </div>
+
+
+                    <div class="MAINICON">
+                        <div class="TOPICON">
+                            <div class="ICON">
+                                <img src="https://themebubble.com/demo/adios/wp-content/themes/adios/img/logo.png"
+                                    alt="">
+
+                                <div class="FICON">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-square-twitter"></i>
+                                    <i class="fa-brands fa-pinterest-p"></i>
+                                    <i class="fa-brands fa-dribbble"></i>
+                                    <i class="fa-solid fa-rss"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="MPAGE">
+                            <div class="TPAGE">
+                                <div class="PPAGE">© Built with pride and caffeine. All rights reserved. </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+</body>
+
+</html>
